@@ -1,0 +1,16 @@
+"Import React function Component": {
+  "prefix": "irfc",
+  "body": [
+    "import React from 'react'",
+    "const ${1: ComponentName} = () => {",
+    "  return (",
+    "    <>",
+    "      $2",
+    "    </>",
+    "  )",
+    "}",
+    "export default ${1: ComponentName}",
+    ""
+  ],
+  "description": "Import React function Component"
+}
